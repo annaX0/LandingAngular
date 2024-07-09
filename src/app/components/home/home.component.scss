@@ -1,0 +1,24 @@
+.main-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    padding: 64px;
+    flex-wrap: wrap;
+}
+.title{
+    font-size: 64px;
+    max-width: 60%;
+    line-height: 64px;
+}
+
+.subtitle{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+.headline{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
