@@ -1,3 +1,6 @@
+@import "../../../colors-variables.scss";
+
+
 .main-section{
     display: flex;
     align-items: center;
@@ -15,10 +18,119 @@
 .subtitle{
     text-transform: uppercase;
     font-size: 1.2rem;
+    color: $primary-color;
 }
 .headline{
     display: flex;
     flex-direction: column;
     gap: 12px;
+}
+.line{
+    width: 200px;
+    height: 10px;
+    background-color: $secondary-color;
+}
+.container-percent{
+    width: 20%;
+}
+.text-benefits{
+    font-weight: 200;
+    font-style: italic;
+    font-size: 32px;
+    width: 40%;
+}
+.text-emphasis{
+    color: $primary-color;
+}
+.container-benefits{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 64px;
+    gap: 52px;
+}
+.text-container-benefits{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+.btn-talk-to-us{
+    width: 20%;
+    margin: auto;
+}
 
+.cte{
+    background-color: $dark-primary;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+    padding: 64px 64px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+}
+.inside-text{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.container-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.inside-text h4, p{
+    color: white;
+}
+
+.inside-text  p{
+    max-width: 80%;
+}
+.form label{
+    color: white;
+}
+form > button{
+    background: white;
+    color: $primary-text;
+    width: 50%;
+    margin: auto;
+}
+.container-advantage p{
+    color: $primary-text;
+}
+.container-advantage{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    justify-content: center;
+    gap: 42px;
+    padding: 64px;
+}
+.container-image{
+}
+
+.container-cte{
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.ball{
+    background-color: $primary-text;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }

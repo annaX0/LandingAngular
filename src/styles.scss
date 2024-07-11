@@ -1,5 +1,48 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import "./colors-variables.scss";
+
 *{
     padding: 0;
     margin: 0;
+    font-family: "Roboto", sans-serif;
+    color: $primary-text;
 }
+
+button{
+    border: none;
+    padding: 12px 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    background: linear-gradient(14.79deg, #351686 -27.95%, #8455FF 139.24%);
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background: linear-gradient(14.79deg, #1e0c4d -27.95%, #4c2e99 139.24%);
+
+}
+
+h2{
+    font-size: 52px;
+}
+
+h4{
+    font-size: 32px;
+}
+h5{
+    font-size: 28px;
+}
+
+input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    height: 32px;
+}
+footer{
+    padding: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
